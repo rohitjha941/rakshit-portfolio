@@ -32,11 +32,24 @@
 
     .contact-email-address{
         font-weight: 300;
-        font-size: 30px;
-        line-height: 46px;
+        font-size: 1.875rem;
+        line-height: 2.875rem;
         letter-spacing: 0.5px;
         color: #787878;
 
+    }
+
+    .conact-array{
+        margin-top: 1.5625rem;
+        display: flex;
+        align-items: center;
+        a{
+            margin-right: 4.125rem;
+        }
+    }
+
+    .icons{
+        height: 1.6rem;
     }
 }
 
