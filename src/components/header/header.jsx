@@ -3,9 +3,18 @@ import {NavLink } from "react-router-dom"
 import "./header.scss"
 
 export default class Header extends Component {
+    componentDidMount(){
+        window.onscroll = function() {
+            if (window.pageYOffset === 0) {
+              document.getElementById("header").classList.remove("scroll");
+            } else {
+              document.getElementById("header").classList.add("scroll");
+            }
+          };
+    }
     render() {
         return (
-            <div className = "header">
+            <div className = "header" id = "header">
                 <NavLink to = "/"> 
                     <span className = "header-name">
                         <span className = "header-name-first">Rakshit</span>Keswani
