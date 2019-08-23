@@ -26,7 +26,7 @@ export default class Home extends Component {
                             </div>
                         </div>
 
-                        <div>
+                        <div className ="home-landing-photo">
                             <img src = {HomeIllustration} alt = "Home Illustration" />
                         </div>
 

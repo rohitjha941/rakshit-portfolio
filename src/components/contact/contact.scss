@@ -93,14 +93,19 @@
 
         button{
             font-size: 1.25rem;
-            line-height: 2.875rem;
             letter-spacing: 0.0125rem;
-            padding : 0 3.3125rem;
+            padding : 0.875rem 3.3125rem;
             background: none;
             color: #3340FF;
             border: 2px solid #3340FF;
             border-radius: 0.4375rem;
             font-family: 'Kalam', cursive;
+            transition: 0.3s ease;
+        }
+
+        button:hover{
+            background: #3340FF;
+            color: white;
         }
     }
 }
