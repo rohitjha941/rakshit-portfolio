@@ -28,7 +28,7 @@ export default class Contact extends Component {
                     rkeswani@mt.iitr.ac.in
                     </div>
 
-                    <div style = {{"marginTop" : "2rem"}} className = "contact-title">
+                    <div  className = "contact-title">
                     Find me on
                     </div>
 
