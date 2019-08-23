@@ -39,6 +39,7 @@
         letter-spacing: 0.0125rem;
         padding: 0.0625rem 2.5rem;
         color: #3340FF;
+    
 
         margin-top :3.5rem;
 
@@ -57,7 +58,7 @@
     .home-work-unit{
         margin-top: 5rem;
         display: grid;
-        grid-template-columns: 32.222222222% auto;
+        grid-template-columns: 38% auto;
         grid-column-gap: 10%;
         position: relative;
 
@@ -81,14 +82,19 @@
             color: #787878;
         }
 
-        .home-work-medium , .home-work-medium a{
-            font-weight: 300;
-            font-size: 1.375rem;
-            line-height: 2.6875rem;
-            letter-spacing: 0.0484rem;
-            color: #3340FF;
-            position: absolute;
-            bottom: 0;
+        .home-work-medium {
+            a{
+                font-weight: 300;
+                font-size: 1.375rem;
+                line-height: 2.6875rem;
+                letter-spacing: 0.0484rem;
+                color: #3340FF;
+                position: absolute;
+                bottom: 0;
+                display: block;
+                width: 100%;
+                text-decoration: none;
+            }
         }
     }
 }

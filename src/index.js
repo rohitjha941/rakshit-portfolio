@@ -11,6 +11,7 @@ import Home from './components/home/home';
 import "./index.scss";
 
 import {HashRouter as Router, Route } from "react-router-dom";
+import Footer from './components/footer/footer';
 
 export default class App extends Component {
     render() {
@@ -18,10 +19,12 @@ export default class App extends Component {
             <div>
                 
                 <Router>
-                <Header />
-                    <Route path = "/" component = {Home} exact = {true} />
-                    <Route path = "/about" component = {About} />
+                    <Header />
+                        <Route path = "/" component = {Home} exact = {true} />
+                        <Route path = "/about" component = {About} />
+                    <Footer />
                 </Router>
+
 
                  
             </div>
