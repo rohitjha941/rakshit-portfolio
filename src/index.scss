@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Kalam:300,400,700&display=swap');
 
 body{
-    font-family: 'Kalam', cursive;     
+    font-family: 'Kalam', cursive;   
+    background: url("./static/background.png");  
+    background-size: cover;
 }
 
 html{
