@@ -22,7 +22,7 @@ export default class App extends Component {
                     <Header />
                         <Route path = "/" component = {Home} exact = {true} />
                         <Route path = "/about" component = {About} />
-                    <Footer />
+                    {/* <Footer /> */}
                 </Router>
 
 

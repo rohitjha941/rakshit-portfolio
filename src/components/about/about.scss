@@ -1,0 +1,40 @@
+.about{
+    
+    display: grid;
+    grid-template-columns: 50% auto;
+
+    .about-desc{
+        .about-desc-title{
+            font-weight: bold;
+            font-size: 3.5rem;
+            letter-spacing: 0.1407rem;
+            color: #000000;
+        }
+
+        .about-desc-more{
+            font-weight: 300;
+            font-size: 1.625rem;
+            line-height: 2.875rem;
+            margin-top: 2rem;
+            letter-spacing: 0.0313rem;  
+            color: #787878;
+        }
+    }
+}
+
+.about-parent{
+    padding: 4rem 10.625rem;
+
+    img{
+        width: 100%;
+    }
+}
+
+.about-title{
+    margin-top: 8.75rem;
+    margin-bottom: 2.875rem;
+    h2{
+        margin-bottom: 0;
+        padding-bottom: 0;        
+    }
+}
