@@ -12,6 +12,7 @@ import "./index.scss";
 
 import {HashRouter as Router, Route } from "react-router-dom";
 import Footer from './components/footer/footer';
+import Contact from './components/contact/contact';
 
 export default class App extends Component {
     render() {
@@ -22,6 +23,7 @@ export default class App extends Component {
                     <Header />
                         <Route path = "/" component = {Home} exact = {true} />
                         <Route path = "/about" component = {About} />
+                        <Route path = "/contact" component = {Contact} />
                     {/* <Footer /> */}
                 </Router>
 
