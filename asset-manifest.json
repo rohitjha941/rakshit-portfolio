@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.997414fc.chunk.css",
+    "main.css": "/static/css/main.ba7a0a9d.chunk.css",
     "main.js": "/static/js/main.26bed006.chunk.js",
     "main.js.map": "/static/js/main.26bed006.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.5cb4dc75.js",
@@ -8,9 +8,9 @@
     "static/js/2.ae730eca.chunk.js": "/static/js/2.ae730eca.chunk.js",
     "static/js/2.ae730eca.chunk.js.map": "/static/js/2.ae730eca.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.84bd59c528adb733e1a76de0c273af92.js": "/precache-manifest.84bd59c528adb733e1a76de0c273af92.js",
+    "precache-manifest.715ce77edecd6c1adddd5068e823b9cb.js": "/precache-manifest.715ce77edecd6c1adddd5068e823b9cb.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.997414fc.chunk.css.map": "/static/css/main.997414fc.chunk.css.map",
+    "static/css/main.ba7a0a9d.chunk.css.map": "/static/css/main.ba7a0a9d.chunk.css.map",
     "static/media/UXinternship.png": "/static/media/UXinternship.4e9598cf.png",
     "static/media/home.scss": "/static/media/background.30ae2973.png",
     "static/media/home-illustration.png": "/static/media/home-illustration.eacf5e50.png"
