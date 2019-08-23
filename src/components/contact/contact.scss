@@ -2,7 +2,7 @@
 
     padding: 5.75rem 10.625rem;
     display: grid;
-    grid-template-columns: 45% 25%;
+    grid-template-columns: 45% 35%;
     grid-column-gap: 20%;
 
     .contact-coffee{
@@ -69,6 +69,24 @@
             border: 1.1px solid #979797;
             box-sizing: border-box;
             width: 100%;
+            font-family: 'Kalam', cursive;   
+        }
+
+        input{
+            font-size: 1.125rem;
+            padding: 0.625rem 0.9375rem;
+            letter-spacing: 0.0088rem;
+            color: #474747;
+        }
+
+        textarea{
+            font-weight: 300;
+            font-size: 1rem;
+            line-height: 1.375rem;
+            letter-spacing: 0.0088rem;
+            color: #474747;
+            padding: 0.625rem 0.9375rem;
+
         }
     }
 }
