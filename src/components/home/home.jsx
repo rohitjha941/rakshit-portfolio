@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import "./home.scss";
 import HomeIllustration from "../../static/home-illustration.png";
+import UXInternship from "../../static/Images/UXinternship.png";
 export default class Home extends Component {
     render() {
         return (
@@ -26,6 +27,44 @@ export default class Home extends Component {
 
 
 
+                    </div>
+            
+            
+            
+                    <div className = "home-work">
+                    <div className = "title">
+                        <span> Work: </span> Case Studies
+                    </div>
+
+                    <div className = "home-work-unit">
+                        <div className = "home-work-pic">
+                            <img src = {UXInternship}  alt = "UX Internship"/>
+
+                        </div>
+
+                        <div className = "home-work-details">
+                            <div> 
+                                <div className = "home-work-title">
+
+                                UX internship at Furlenco
+                                </div>
+
+                               
+                                <div className = "home-work-desc">
+
+                                Key learnings from my summer internship at Furlenco, tasks performed by me & how I evolved into a better designer.
+                                </div>
+                            </div>
+                                <div className = "home-work-medium">
+
+                                Read medium article ->
+                                </div>
+                                
+                        </div>
+
+
+                    </div>
+                    
                     </div>
             </div>
         )

@@ -7,3 +7,15 @@ body{
 html{
     font-size: 1.1vw;
 }
+
+.title{
+    display: block;
+    border-bottom: 1px solid #B9B9B9;
+    font-size: 1.25rem;
+    line-height: 2.875rem;
+    letter-spacing: 0.0125rem;
+
+    span{
+        color: #3340FF;
+    }
+}

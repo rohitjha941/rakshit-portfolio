@@ -1,6 +1,7 @@
 .home{
     background: url("../../static/background.png");
     background-size: cover;
+    padding:  5.3125rem  10.625rem ;
 }
 
 
@@ -8,7 +9,7 @@
     display: grid;
     grid-template-columns: 49% auto;
     grid-column-gap: 20%;
-    padding:  5.3125rem  10.625rem ;
+
 
 
     .home-landing-title{
@@ -45,5 +46,49 @@
 
     img{
         width: 80%;
+    }
+}
+
+
+.home-work{
+    margin-top : 7.5rem;
+
+
+    .home-work-unit{
+        margin-top: 5rem;
+        display: grid;
+        grid-template-columns: 32.222222222% auto;
+        grid-column-gap: 10%;
+        position: relative;
+
+        img{
+            width: 100%;
+        }
+
+        .home-work-title{
+            font-weight: bold;
+            font-size: 2.125rem;
+            line-height: 4.625rem;
+            letter-spacing: 0.0125rem;
+            color: #151515;
+        }
+
+        .home-work-desc{
+            font-weight: 300;
+            font-size: 1.4375rem;
+            line-height: 2.0625rem;
+            letter-spacing: 0.0131rem;
+            color: #787878;
+        }
+
+        .home-work-medium , .home-work-medium a{
+            font-weight: 300;
+            font-size: 1.375rem;
+            line-height: 2.6875rem;
+            letter-spacing: 0.0484rem;
+            color: #3340FF;
+            position: absolute;
+            bottom: 0;
+        }
     }
 }
