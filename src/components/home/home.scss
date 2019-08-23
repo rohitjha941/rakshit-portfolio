@@ -1,0 +1,48 @@
+.home{
+    background: url("../../static/background.png");
+    background-size: cover;
+}
+
+
+.home-landing{
+    display: grid;
+    grid-template-columns: 49% auto;
+    grid-column-gap: 20%;
+    padding:  5.3125rem  10.625rem ;
+
+    .home-landing-title{
+        font-weight: bold;
+        font-size: 4rem;
+        line-height: 4.625rem;
+        letter-spacing: 0.1407rem;
+        color: #000000;
+    }
+
+    .home-landing-desc{
+        padding-top: 2.375rem;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 1.875rem;
+        line-height: 2.875rem;
+        letter-spacing: 0.0313rem;
+        color: #787878;
+    }
+
+    .home-landing-work{
+        border: 0.125rem solid #3340FF;
+        border-radius: 0.4375rem;
+        display: inline-block;
+        font-size: 1.25rem;
+        line-height: 2.875rem;
+        letter-spacing: 0.0125rem;
+        padding: 0.0625rem 2.5rem;
+        color: #3340FF;
+
+        margin-top :3.5rem;
+
+    }
+
+    img{
+        width: 80%;
+    }
+}

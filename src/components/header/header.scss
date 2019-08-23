@@ -1,0 +1,36 @@
+
+.header {
+   padding: 0.75rem 10.625rem;
+   display: flex;
+   justify-content: space-between;
+   background: #FFFFFF;
+   box-shadow: 0px 3px 11px rgba(0, 0, 0, 0.08);
+
+  .header-name {
+      font-size: 1.25rem;
+      line-height: 2rem;
+      letter-spacing: 0.0195rem;
+      .header-name-first{
+         color: #3340FF;
+      }
+      
+   }
+
+   nav{
+      display: inline;
+
+      a{
+         margin-left: 6.5rem;
+         font-size: 1.25rem;
+         line-height: 2rem;
+         text-align: justify;
+         letter-spacing: 0.0195rem;
+         text-decoration: none;
+         color: #787878;
+      }
+
+      .active{
+         color: #3340FF;
+      }
+   }
+}
