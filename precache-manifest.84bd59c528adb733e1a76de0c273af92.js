@@ -1,23 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "37b24a9d651dd2c5d7ee65d64b972e5c",
+    "revision": "0b7b6c72dd81cd9537643cc68133ad77",
     "url": "/index.html"
   },
   {
-    "revision": "79a3b158654358ee2ba5",
-    "url": "/static/css/main.f77c060d.chunk.css"
+    "revision": "9cacece113ad70d71f7f",
+    "url": "/static/css/main.997414fc.chunk.css"
   },
   {
-    "revision": "18fe0c003f9ba6747ca2",
-    "url": "/static/js/2.5a629fe2.chunk.js"
+    "revision": "934467f6e074262c8e67",
+    "url": "/static/js/2.ae730eca.chunk.js"
   },
   {
-    "revision": "79a3b158654358ee2ba5",
-    "url": "/static/js/main.54de0a10.chunk.js"
+    "revision": "9cacece113ad70d71f7f",
+    "url": "/static/js/main.26bed006.chunk.js"
   },
   {
     "revision": "82692455fbdfbde2001a",
     "url": "/static/js/runtime~main.5cb4dc75.js"
+  },
+  {
+    "revision": "4e9598cf2bbb508d0f7e45506714f71a",
+    "url": "/static/media/UXinternship.4e9598cf.png"
   },
   {
     "revision": "30ae297323478787d1de6606895cf9d1",
