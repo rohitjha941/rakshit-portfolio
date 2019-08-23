@@ -10,7 +10,7 @@ import About from './components/about/about';
 import Home from './components/home/home';
 import "./index.scss";
 
-import {BrowserRouter as Router, Route } from "react-router-dom";
+import {HashRouter as Router, Route } from "react-router-dom";
 
 export default class App extends Component {
     render() {
