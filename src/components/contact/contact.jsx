@@ -58,13 +58,15 @@ export default class Contact extends Component {
                 <div className ="contact-form">
                     <form>
                         <label>Your Email:</label>
-                        <input type = "email" name = "email" />
+                        <input type = "email" name = "email" required />
 
                         <label>Subject:</label>
-                        <input type = "text" name = "subject" />
+                        <input type = "text" name = "subject" required/>
 
                         <label>Message:</label>
-                        <textarea  rows = "5" name = "subject" />
+                        <textarea  rows = "5" name = "subject" required />
+
+                        <button type = "submit" > Submit </button>
 
                     </form>
 
