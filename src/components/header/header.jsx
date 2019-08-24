@@ -5,6 +5,9 @@ import Resume from "../../static/resume.pdf"
 
 export default class Header extends Component {
     componentDidMount(){
+        var height = document.getElementById("header").offsetHeight;
+        height = height + "px";
+        document.getElementById("body").style.paddingTop = height;
         window.onscroll = function() {
             if (window.pageYOffset === 0) {
               document.getElementById("header").classList.remove("scroll");
