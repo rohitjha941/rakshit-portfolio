@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import {NavLink } from "react-router-dom"
-import "./header.scss"
+import "./header.scss";
+import Resume from "../../static/resume.pdf"
 
 export default class Header extends Component {
     componentDidMount(){
@@ -23,7 +24,7 @@ export default class Header extends Component {
                 <nav> 
                     <NavLink exact = {true} to = "/">Work</NavLink>  
                     <NavLink to = "/about">About</NavLink>
-                    <NavLink to = "/resume">Resume</NavLink>
+                    <a href = {Resume} target = "blank">Resume</a>
                     <NavLink to = "/contact">Contact</NavLink>
                 </nav>
             </div>
