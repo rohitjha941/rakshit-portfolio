@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import {NavLink } from "react-router-dom"
 import "./header.scss";
-import Resume from "../../static/resume.pdf"
+import Resume from "../../static/resume.pdf";
+import { NavHashLink as Link } from 'react-router-hash-link';
 
 export default class Header extends Component {
     componentDidMount(){
@@ -16,13 +17,13 @@ export default class Header extends Component {
     render() {
         return (
             <div className = "header" id = "header">
-                <NavLink to = "/"> 
+                <Link smooth = {true} exact = {true} to = "/#landing">
                     <span className = "header-name">
                         <span className = "header-name-first">Rakshit</span>Keswani
                     </span>
-                </NavLink>
+                </Link>
                 <nav> 
-                    <NavLink exact = {true} to = "/">Work</NavLink>  
+                    <Link smooth = {true} exact = {true} to = "/#work">Work</Link>  
                     <NavLink to = "/about">About</NavLink>
                     <a href = {Resume} target = "blank">Resume</a>
                     <NavLink to = "/contact">Contact</NavLink>
