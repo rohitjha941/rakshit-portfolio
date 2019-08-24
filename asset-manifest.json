@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.662562a2.chunk.css",
+    "main.css": "/static/css/main.7d19c563.chunk.css",
     "main.js": "/static/js/main.e3a8180a.chunk.js",
     "main.js.map": "/static/js/main.e3a8180a.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.7e6e94c0.js",
@@ -8,9 +8,9 @@
     "static/js/2.e0c2db83.chunk.js": "/static/js/2.e0c2db83.chunk.js",
     "static/js/2.e0c2db83.chunk.js.map": "/static/js/2.e0c2db83.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.147169fa7879f470a1431298d1cbb90e.js": "/precache-manifest.147169fa7879f470a1431298d1cbb90e.js",
+    "precache-manifest.3fa3d4fc1c2f89147863b4e017807be4.js": "/precache-manifest.3fa3d4fc1c2f89147863b4e017807be4.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.662562a2.chunk.css.map": "/static/css/main.662562a2.chunk.css.map",
+    "static/css/main.7d19c563.chunk.css.map": "/static/css/main.7d19c563.chunk.css.map",
     "static/media/24hr.png": "/static/media/24hr.6658c278.png",
     "static/media/AAHAR.png": "/static/media/AAHAR.6f5748bb.png",
     "static/media/Bookstore.png": "/static/media/Bookstore.d160e66c.png",
