@@ -13,23 +13,18 @@ import "./index.scss";
 import {HashRouter as Router, Route } from "react-router-dom";
 import Footer from './components/footer/footer';
 import Contact from './components/contact/contact';
-
+import ScrollToTop from "./components/scroll/scroll";
 export default class App extends Component {
     render() {
         return (
-            <div>
-                
-                <Router>
+            <Router>
+                <ScrollToTop> 
                     <Header />
                         <Route path = "/" component = {Home} exact = {true} />
                         <Route path = "/about" component = {About} />
                         <Route path = "/contact" component = {Contact} />
-                    {/* <Footer /> */}
-                </Router>
-
-
-                 
-            </div>
+                </ScrollToTop>
+            </Router>
         )
     }
 }
