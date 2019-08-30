@@ -129,7 +129,7 @@ export default class Home extends Component {
                   href="https://www.behance.net/gallery/75867469/Aahar-UX-System-design"
                   target="blank"
                 >
-                  View Behnace Project ->
+                  View Behance Project ->
                 </a>
               </div>
             </div>
