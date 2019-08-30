@@ -26,16 +26,24 @@
   }
 
   .home-landing-work {
-    border: 0.125rem solid #3340ff;
-    border-radius: 0.4375rem;
-    display: inline-block;
     font-size: 1.25rem;
-    line-height: 2.875rem;
     letter-spacing: 0.0125rem;
     padding: 0.0625rem 2.5rem;
+    line-height: 2.875rem;
+    background: none;
     color: #3340ff;
-
+    border: 2px solid #3340ff;
+    border-radius: 0.4375rem;
+    font-family: "Kalam", cursive;
+    transition: 0.3s ease;
+    cursor: pointer;
     margin-top: 3.5rem;
+    display: inline-block;
+  }
+
+  .home-landing-work:hover {
+    background: #3340ff;
+    color: white;
   }
   .home-landing-photo {
     display: grid;
