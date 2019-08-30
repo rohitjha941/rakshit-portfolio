@@ -26,7 +26,7 @@ export default class Header extends Component {
                     </span>
                 </Link>
                 <nav> 
-                    <Link smooth = {true}   to = "/#work">Work</Link>  
+                    <Link smooth = {true}  activeClassName="active"  to = "/#work">Work</Link>  
                     <NavLink to = "/about">About</NavLink>
                     <a href = {Resume} target = "blank">Resume</a>
                     <NavLink to = "/contact">Contact</NavLink>

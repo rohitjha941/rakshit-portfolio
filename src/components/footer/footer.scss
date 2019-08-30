@@ -6,11 +6,24 @@ footer{
     align-items: center;
     justify-items: center;
 
-    div{
+    .text{
         font-size: 2rem;
         line-height: 4.625rem;
         text-align: center;
         letter-spacing: 0.0748rem;
         color: #787878;
+    }
+
+    .footer-array{
+        display: flex;
+        align-items: center;
+        margin-top: 1em;
+        .icons-margin{
+            margin-right: 4.125rem;
+        }
+    }
+
+    .icons{
+        height: 1.6rem;
     }
 }
