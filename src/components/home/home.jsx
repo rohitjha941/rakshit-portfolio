@@ -53,7 +53,8 @@ export default class Home extends Component {
               <div className="home-work-medium">
                 <a
                   href="https://medium.com/@rakshitkeswani13/ux-intern-at-furlenco-ed68c80dc9b0"
-                  target="blank"
+                  target="_blank"
+                  rel="noopener noreferrer" 
                 >
                   Read medium article ->
                 </a>
@@ -76,7 +77,8 @@ export default class Home extends Component {
               <div className="home-work-medium">
                 <a
                   href="https://uxplanet.org/design-sprint-ec35329c83a7"
-                  target="blank"
+                  target="_blank"
+                  rel="noopener noreferrer" 
                 >
                   Read medium article ->
                 </a>
@@ -100,7 +102,8 @@ export default class Home extends Component {
               <div className="home-work-medium">
                 <a
                   href="https://medium.com/design-studio-iit-roorkee/the-24hr-ux-challenge-91961a5cb388"
-                  target="blank"
+                  target="_blank"
+                  rel="noopener noreferrer" 
                 >
                   Read medium article ->
                 </a>
@@ -127,7 +130,8 @@ export default class Home extends Component {
               <div className="home-work-medium">
                 <a
                   href="https://www.behance.net/gallery/75867469/Aahar-UX-System-design"
-                  target="blank"
+                  target="_blank"
+                  rel="noopener noreferrer" 
                 >
                   View Behance Project ->
                 </a>
@@ -150,7 +154,8 @@ export default class Home extends Component {
               <div className="home-work-medium">
                 <a
                   href="https://dribbble.com/shots/6959114-Bookstore-App"
-                  target="blank"
+                  target="_blank"
+                  rel="noopener noreferrer" 
                 >
                   View Dribbble Shot ->
                 </a>
