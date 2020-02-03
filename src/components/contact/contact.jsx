@@ -56,7 +56,7 @@ export default class Contact extends Component {
                 </div>
 
                 <div className ="contact-form">
-                    <form action="https://formspree.io/rkeswani@mt.iitr.ac.in" method = "POST">
+                    <form netlify method = "POST">
                         <label>Your Email:</label>
                         <input type = "email" name = "email" required />
 
