@@ -62,10 +62,7 @@ export default class Home extends Component {
             </div>
           </div>
 
-          <div className="home-work-unit">
-            <div className="home-work-pic">
-              <img src={Furlenco} alt="Furlenco Internship" />
-            </div>
+          <div className="home-work-unit home-work-unit2">
             <div className="home-work-details">
               <div>
                 <div className="home-work-title">
@@ -87,6 +84,9 @@ export default class Home extends Component {
                   Read Project Brief ->
                 </a>
               </div>
+            </div>
+            <div className="home-work-pic">
+              <img src={Furlenco} alt="Furlenco Internship" />
             </div>
           </div>
 
@@ -124,10 +124,7 @@ export default class Home extends Component {
             </div>
           </div>
 
-          <div className="home-work-unit">
-            <div className="home-work-pic">
-              <img src={Aahar} alt="AAHAR: UX Research" />
-            </div>
+          <div className="home-work-unit home-work-unit2">
             <div className="home-work-details">
               <div>
                 <div className="home-work-title">AAHAR: UX Research</div>
@@ -145,6 +142,9 @@ export default class Home extends Component {
                   View Behance Project ->
                 </a>
               </div>
+            </div>
+            <div className="home-work-pic">
+              <img src={Aahar} alt="AAHAR: UX Research" />
             </div>
           </div>
         </div>
