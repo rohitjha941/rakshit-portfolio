@@ -56,7 +56,7 @@ export default class Contact extends Component {
                 </div>
 
                 <div className ="contact-form">
-                    <form netlify method = "POST">
+                    <form method="POST" data-netlify="true" name="contact">
                         <label>Your Email:</label>
                         <input type = "email" name = "email" required />
 
