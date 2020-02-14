@@ -1,113 +1,112 @@
-.contact{
+.contact {
+  padding: 5.75rem 8.25rem;
+  display: grid;
+  grid-template-columns: 45% 35%;
+  grid-column-gap: 20%;
 
-    padding: 5.75rem 8.25rem;
-    display: grid;
-    grid-template-columns: 45% 35%;
-    grid-column-gap: 20%;
+  .contact-coffee {
+    font-weight: bold;
+    font-size: 4rem;
+    line-height: 4.625rem;
+    letter-spacing: 0.1407rem;
+    color: #000000;
+  }
 
-    .contact-coffee{
-        font-weight: bold;
-        font-size: 4rem;
-        line-height: 4.625rem;
-        letter-spacing: 0.1407rem;
-        color: #000000;
+  .contact-desc {
+    font-weight: 300;
+    font-size: 1.875rem;
+    line-height: 2.875rem;
+    letter-spacing: 0.0313rem;
+    color: #787878;
+    margin-top: 30px;
+  }
+
+  .contact-title {
+    font-weight: bold;
+    font-size: 2.125rem;
+    line-height: 4.625rem;
+    letter-spacing: 0.2px;
+    color: #000000;
+    margin-top: 3.75rem;
+  }
+
+  .contact-email-address {
+    font-weight: 300;
+    font-size: 1.875rem;
+    letter-spacing: 0.5px;
+    color: #787878;
+  }
+
+  .conact-array {
+    display: flex;
+    align-items: center;
+    margin-top: 1em;
+    a {
+      margin-right: 4.125rem;
+      img {
+        height: 5.25rem;
+      }
     }
+  }
 
-    .contact-desc{
-        font-weight: 300;
-        font-size: 1.875rem;
-        line-height: 2.875rem;
-        letter-spacing: 0.0313rem;
-        color: #787878;
-        margin-top : 30px;
-    }
-
-    .contact-title{
-        font-weight: bold;
-        font-size: 2.125rem;
-        line-height: 4.625rem;
-        letter-spacing: 0.2px;
-        color: #000000;
-        margin-top: 3.75rem;
-    }
-
-    .contact-email-address{
-        font-weight: 300;
-        font-size: 1.875rem;
-        letter-spacing: 0.5px;
-        color: #787878;
-        
-
-    }
-
-    .conact-array{
-        display: flex;
-        align-items: center;
-        margin-top: 1em;
-        a{
-            margin-right: 4.125rem;
-        }
-    }
-
-    .icons{
-        height: 1.6rem;
-    }
+  .icons {
+    height: 1.6rem;
+  }
 }
 
-
-.contact-form{
-    form{
-        label{
-            display: block;
-            font-size: 1.5rem;
-            line-height: 4.5rem;
-            letter-spacing: 0.0088rem;
-            color: #000000;
-        }
-
-        input, textarea{
-            background: #FFFFFF;
-            border: 1.1px solid #979797;
-            box-sizing: border-box;
-            width: 100%;
-            font-family: 'Kalam', cursive;   
-            margin-bottom: 1rem;
-        }
-
-        input{
-            font-size: 1rem;
-            padding: 0.625rem 0.9375rem;
-            letter-spacing: 0.0088rem;
-            color: #474747;
-        }
-
-        textarea{
-            font-weight: 300;
-            font-size: 1rem;
-            line-height: 1.375rem;
-            letter-spacing: 0.0088rem;
-            color: #474747;
-            padding: 0.625rem 0.9375rem;
-
-        }
-
-        button{
-            font-size: 1.25rem;
-            letter-spacing: 0.0125rem;
-            padding: 0.0625rem 2.5rem;
-            line-height: 2.875rem;
-            background: none;
-            color: #3340FF;
-            border: 2px solid #3340FF;
-            border-radius: 0.4375rem;
-            font-family: 'Kalam', cursive;
-            transition: 0.3s ease;
-            cursor: pointer;
-        }
-
-        button:hover{
-            background: #3340FF;
-            color: white;
-        }
+.contact-form {
+  form {
+    label {
+      display: block;
+      font-size: 1.5rem;
+      line-height: 4.5rem;
+      letter-spacing: 0.0088rem;
+      color: #000000;
     }
+
+    input,
+    textarea {
+      background: #ffffff;
+      border: 1.1px solid #979797;
+      box-sizing: border-box;
+      width: 100%;
+      font-family: "Kalam", cursive;
+      margin-bottom: 1rem;
+    }
+
+    input {
+      font-size: 1rem;
+      padding: 0.625rem 0.9375rem;
+      letter-spacing: 0.0088rem;
+      color: #474747;
+    }
+
+    textarea {
+      font-weight: 300;
+      font-size: 1rem;
+      line-height: 1.375rem;
+      letter-spacing: 0.0088rem;
+      color: #474747;
+      padding: 0.625rem 0.9375rem;
+    }
+
+    button {
+      font-size: 1.25rem;
+      letter-spacing: 0.0125rem;
+      padding: 0.0625rem 2.5rem;
+      line-height: 2.875rem;
+      background: none;
+      color: #3340ff;
+      border: 2px solid #3340ff;
+      border-radius: 0.4375rem;
+      font-family: "Kalam", cursive;
+      transition: 0.3s ease;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #3340ff;
+      color: white;
+    }
+  }
 }
