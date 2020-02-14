@@ -1,5 +1,5 @@
 .home {
-  padding: 5.3125rem 10.625rem;
+  padding: 5.3125rem 8.25rem;
 }
 
 .home-landing {
@@ -72,7 +72,7 @@
 
     .home-work-title {
       font-weight: bold;
-      font-size: 2.125rem;
+      font-size: 2rem;
       line-height: 4.625rem;
       letter-spacing: 0.0125rem;
       color: #151515;
@@ -98,7 +98,36 @@
         display: block;
         width: 100%;
         text-decoration: none;
+        font-weight: bold;
       }
+    }
+  }
+
+  .home-work-unit2 {
+    grid-template-columns:  auto 38%;
+  }
+}
+
+.home-blogs-array {
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+  margin-top: 3.25rem;
+  justify-content: space-between;
+
+  .home-blogs-unit {
+    img {
+      width: 100%;
+    }
+    .home-blogs-name {
+      font-size: 1.5rem;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.5;
+      letter-spacing: 0.0088rem;
+      text-align: center;
+      color: #161616;
+      margin-top: 4%;
     }
   }
 }

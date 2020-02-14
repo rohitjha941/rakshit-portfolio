@@ -1,8 +1,8 @@
 .about{
     
     display: grid;
-    grid-template-columns: 50% auto;
-    grid-column-gap: 20%;
+    grid-template-columns: 40% auto;
+    grid-column-gap: 30%;
 
     .about-desc{
         .about-desc-title{
@@ -24,7 +24,7 @@
 }
 
 .about-parent{
-    padding: 4rem 10.625rem;
+    padding: 4rem 8.25rem;
 
     img{
         width: 100%;

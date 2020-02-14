@@ -1,13 +1,12 @@
 import React, { Component } from "react";
 import "./home.scss";
 import HomeIllustration from "../../static/home-illustration.png";
-import UXInternship from "../../static/Images/UXinternship.png";
-import SprintZone from "../../static/Images/Sprint.png";
-import TwentyHour from "../../static/Images/24hr.png";
 import Aahar from "../../static/Images/AAHAR.png";
-import Bookstore from "../../static/Images/Bookstore.png";
-import { NavHashLink as Link } from 'react-router-hash-link';
-
+import { NavHashLink as Link } from "react-router-hash-link";
+import Olx from "../../static/olx.png";
+import Furlenco from "../../static/furlenco.png";
+import TravelMate from "../../static/travelmate.png";
+import OlxBlogs from "../../static/olx-blogs.jpg";
 
 export default class Home extends Component {
   render() {
@@ -34,91 +33,98 @@ export default class Home extends Component {
         </div>
 
         <div className="home-work" id="work">
-          <div className="title">
-            <span> Work: </span> Case Studies
-          </div>
+          <div className="title">Internship Projects</div>
 
           <div className="home-work-unit">
             <div className="home-work-pic">
-              <img src={UXInternship} alt="UX Internship" />
+              <img src={Olx} alt="Olx Internship" />
             </div>
             <div className="home-work-details">
               <div>
-                <div className="home-work-title">UX internship at Furlenco</div>
+                <div className="home-work-title">
+                  Solving for Next Billion Users on Olx
+                </div>
                 <div className="home-work-desc">
-                  Key learnings from my summer internship at Furlenco, tasks
-                  performed by me & how I evolved into a better designer.
+                  To assist the next billion users on Olx by building an audio
+                  interaction b/w user and app. A complete end to end project
+                  from guerilla research to testing the prototypes with users.
                 </div>
               </div>
               <div className="home-work-medium">
                 <a
-                  href="https://medium.com/@rakshitkeswani13/ux-intern-at-furlenco-ed68c80dc9b0"
+                  href="https://medium.com/@rakshitkeswani13/85e1bfe41190"
                   target="_blank"
-                  rel="noopener noreferrer" 
+                  rel="noopener noreferrer"
                 >
-                  Read medium article ->
+                  Read Project Brief ->
                 </a>
               </div>
             </div>
           </div>
 
-          <div className="home-work-unit">
-            <div className="home-work-pic">
-              <img src={SprintZone} alt="The Sprint Zoetrope" />
-            </div>
+          <div className="home-work-unit home-work-unit2">
             <div className="home-work-details">
               <div>
-                <div className="home-work-title">The Sprint Zoetrope</div>
+                <div className="home-work-title">
+                  Product stories for Premium Products
+                </div>
                 <div className="home-work-desc">
-                  My learnings after reading "The Sprint book" by Jake Knapp &
-                  How designers can test their ideas in just 5 days.
+                  To understand user behavior and build a user-centric design
+                  story for signature products. To create an immersive
+                  experience that emotionally connects the user to the
+                  furniture.
                 </div>
               </div>
               <div className="home-work-medium">
                 <a
-                  href="https://uxplanet.org/design-sprint-ec35329c83a7"
+                  href="https://medium.com/@rakshitkeswani13/communicating-the-design-story-behind-furlencos-signature-products-c6e53ec82040"
                   target="_blank"
-                  rel="noopener noreferrer" 
+                  rel="noopener noreferrer"
                 >
-                  Read medium article ->
+                  Read Project Brief ->
                 </a>
               </div>
             </div>
-          </div>
-
-          <div className="home-work-unit">
             <div className="home-work-pic">
-              <img src={TwentyHour} alt="The 24hr UX Challenge" />
-            </div>
-            <div className="home-work-details">
-              <div>
-                <div className="home-work-title">The 24hr UX Challenge</div>
-                <div className="home-work-desc">
-                  To design a chat experience for a medical website. I was
-                  assigned challenges I needed to solve for within restricted
-                  time.
-                </div>
-              </div>
-              <div className="home-work-medium">
-                <a
-                  href="https://medium.com/design-studio-iit-roorkee/the-24hr-ux-challenge-91961a5cb388"
-                  target="_blank"
-                  rel="noopener noreferrer" 
-                >
-                  Read medium article ->
-                </a>
-              </div>
+              <img src={Furlenco} alt="Furlenco Internship" />
             </div>
           </div>
 
           <div className="title" style={{ marginTop: "5em" }}>
-            <span> Work: </span> Projects
+            Personal Experiments
           </div>
 
           <div className="home-work-unit">
             <div className="home-work-pic">
-              <img src={Aahar} alt="AAHAR: UX Research" />
+              <img
+                src={TravelMate}
+                alt="TravelMate: Encouraging safe travelling"
+              />
             </div>
+            <div className="home-work-details">
+              <div>
+                <div className="home-work-title">
+                  TravelMate: Encouraging safe travelling{" "}
+                </div>
+                <div className="home-work-desc">
+                  TravelMate is a Campus app that allows students to travel
+                  together safely from and to, IIT Roorkee. TravelMate tackles
+                  the problem of student safety during travel.
+                </div>
+              </div>
+              <div className="home-work-medium">
+                <a
+                  href="https://medium.com/@rakshitkeswani13/travelmate-ux-case-study-e767771b64e3"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Read on Medium ->
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="home-work-unit home-work-unit2">
             <div className="home-work-details">
               <div>
                 <div className="home-work-title">AAHAR: UX Research</div>
@@ -131,36 +137,49 @@ export default class Home extends Component {
                 <a
                   href="https://www.behance.net/gallery/75867469/Aahar-UX-System-design"
                   target="_blank"
-                  rel="noopener noreferrer" 
+                  rel="noopener noreferrer"
                 >
                   View Behance Project ->
                 </a>
               </div>
             </div>
+            <div className="home-work-pic">
+              <img src={Aahar} alt="AAHAR: UX Research" />
+            </div>
+          </div>
+        </div>
+
+        <div className="home-blogs">
+          <div className="title" style={{ marginTop: "5em" }}>
+            Blogs: I love to write my experiences.
           </div>
 
-          <div className="home-work-unit">
-            <div className="home-work-pic">
-              <img src={Bookstore} alt="BLUEBOOKS: bookstore app" />
-            </div>
-            <div className="home-work-details">
-              <div>
-                <div className="home-work-title">BLUEBOOKS: bookstore app</div>
-                <div className="home-work-desc">
-                  Competing in a challenge for generating concepts for a
-                  Bookstore app.
-                </div>
+          <div className="home-blogs-array">
+            <a href = "https://uxplanet.org/product-design-internship-olx-group-297b51855239" className="home-blogs-unit">
+              <img
+                src={OlxBlogs}
+                alt="Product Design Internship at OLX Group, Gurgaon"
+              ></img>
+              <div className="home-blogs-name">
+                Product Design Internship at OLX Group, Gurgaon
               </div>
-              <div className="home-work-medium">
-                <a
-                  href="https://dribbble.com/shots/6959114-Bookstore-App"
-                  target="_blank"
-                  rel="noopener noreferrer" 
-                >
-                  View Dribbble Shot ->
-                </a>
+            </a>
+            <a href = "https://medium.com/@rakshitkeswani13/ux-intern-at-furlenco-ed68c80dc9b0"  className="home-blogs-unit">
+              <img
+                src={require("../../static/furlenco-blogs.jpg")}
+                alt="UX Design Internship at Furlenco, Bangalore"
+              ></img>
+              <div className="home-blogs-name">
+                UX Design Internship at Furlenco, Bangalore
               </div>
-            </div>
+            </a>
+            <a href = "https://uxplanet.org/design-sprint-ec35329c83a7"  className="home-blogs-unit">
+              <img
+                src={require("../../static/sprint.jpg")}
+                alt="Sprint Kalidoscope"
+              ></img>
+              <div className="home-blogs-name">Sprint Kalidoscope</div>
+            </a>
           </div>
         </div>
       </div>

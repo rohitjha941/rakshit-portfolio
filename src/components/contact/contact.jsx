@@ -33,30 +33,38 @@ export default class Contact extends Component {
                     </div>
 
                     <div className  = "conact-array">
-                        <a href = "https://medium.com/@rakshitkeswani13" target = "blank"> 
-                            <img src = {Medium} alt  = "Medium" className = "icons" /> 
-                        </a>
-
-                        <a href = "https://www.linkedin.com/in/rakshit-keswani" target = "blank"> 
-                            <img src = {Linkedin} alt  = "Linkedin" className = "icons" /> 
-                        </a>
-
-                        <a href = "https://www.facebook.com/rakshit.keswani" target = "blank"> 
-                            <img src = {FaceBook} alt  = "Facebook" className = "icons" /> 
-                        </a>
-
-                        <a href = "https://dribbble.com/RakshitK" target = "blank"> 
-                            <img src = {Dribbble} alt  = "Dribbble" className = "icons" /> 
-                        </a>
-
-                        <a href = "https://www.behance.net/rakshitkes3b15" target = "blank"> 
-                            <img src = {Behance} alt  = "Behance" className = "icons" /> 
-                        </a>
+                       
+                    <a
+                    href="https://medium.com/@rakshitkeswani13"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <img
+                      src={require("../../static/icons2/medium.png")}
+                      alt="Medium"
+                    />
+                  </a>
+      
+                  <a
+                    href="https://www.linkedin.com/in/rakshit-keswani"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <img src={require("../../static/icons2/linkedin.png")} alt="" />
+                  </a>
+                  
+                  <a
+                    href="https://dribbble.com/RakshitK"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <img src={require("../../static/icons2/dribble.png")} alt="" />
+                  </a>
                     </div>
                 </div>
 
                 <div className ="contact-form">
-                    <form action="https://formspree.io/rkeswani@mt.iitr.ac.in" method = "POST">
+                    <form method="POST" data-netlify="true" name="contact">
                         <label>Your Email:</label>
                         <input type = "email" name = "email" required />
 
