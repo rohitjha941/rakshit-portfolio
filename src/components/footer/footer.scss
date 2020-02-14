@@ -4,6 +4,7 @@ footer {
   padding: 0 8.25rem;
   grid-column-gap: 25%;
   padding-bottom: 8.75rem;
+  padding-top: 8.75rem;
   margin: 0;
 }
 
@@ -15,6 +16,7 @@ footer {
   line-height: 2.31;
   letter-spacing: 0.19px;
   color: #161616;
+  margin-bottom: 0.5em;
 }
 
 .footer-message {
@@ -47,6 +49,7 @@ footer {
     border-right: none;
     border-bottom-right-radius: 0;
     border-top-right-radius: 0;
+    width: 70%;
   }
   input[type="submit"] {
     border-radius: 0.25rem;
