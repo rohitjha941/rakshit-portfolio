@@ -127,24 +127,26 @@ export default class Home extends Component {
           <div className="home-work-unit home-work-unit2">
             <div className="home-work-details">
               <div>
-                <div className="home-work-title">AAHAR: UX Research</div>
+                <div className="home-work-title">
+                  Microsoft Design Challenge
+                </div>
                 <div className="home-work-desc">
-                  Designing a system to distribute the un-eaten mess food to
-                  poor construction workers residing outside the campus.
+                  I recently took part in the Design Challenge at Microsoft to
+                  design healthcare solutions.
                 </div>
               </div>
               <div className="home-work-medium">
                 <a
-                  href="https://www.behance.net/gallery/75867469/Aahar-UX-System-design"
+                  href="https://docs.google.com/presentation/d/16HW4Wggqla7kUMs_8p9ozPq0DjyPVbk5E6eRx8EfBOg/edit?usp=sharing"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  View Behance Project ->
+                  View on Project ->
                 </a>
               </div>
             </div>
             <div className="home-work-pic">
-              <img src={Aahar} alt="AAHAR: UX Research" />
+              <img src={Aahar} alt="Microsoft Design Challenge" />
             </div>
           </div>
         </div>
@@ -155,7 +157,12 @@ export default class Home extends Component {
           </div>
 
           <div className="home-blogs-array">
-            <a target = "_blank" rel="noopener noreferrer"  href = "https://uxplanet.org/product-design-internship-olx-group-297b51855239" className="home-blogs-unit">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://uxplanet.org/product-design-internship-olx-group-297b51855239"
+              className="home-blogs-unit"
+            >
               <img
                 src={OlxBlogs}
                 alt="Product Design Internship at OLX Group, Gurgaon"
@@ -164,7 +171,12 @@ export default class Home extends Component {
                 Product Design Internship at OLX Group, Gurgaon
               </div>
             </a>
-            <a target = "_blank" rel="noopener noreferrer" href = "https://medium.com/@rakshitkeswani13/ux-intern-at-furlenco-ed68c80dc9b0"  className="home-blogs-unit">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://medium.com/@rakshitkeswani13/ux-intern-at-furlenco-ed68c80dc9b0"
+              className="home-blogs-unit"
+            >
               <img
                 src={require("../../static/furlenco-blogs.jpg")}
                 alt="UX Design Internship at Furlenco, Bangalore"
@@ -173,7 +185,12 @@ export default class Home extends Component {
                 UX Design Internship at Furlenco, Bangalore
               </div>
             </a>
-            <a target = "_blank" rel="noopener noreferrer" href = "https://uxplanet.org/design-sprint-ec35329c83a7"  className="home-blogs-unit">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://uxplanet.org/design-sprint-ec35329c83a7"
+              className="home-blogs-unit"
+            >
               <img
                 src={require("../../static/sprint.jpg")}
                 alt="Sprint Kalidoscope"
