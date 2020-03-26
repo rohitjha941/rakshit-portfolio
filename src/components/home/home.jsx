@@ -155,7 +155,7 @@ export default class Home extends Component {
           </div>
 
           <div className="home-blogs-array">
-            <a href = "https://uxplanet.org/product-design-internship-olx-group-297b51855239" className="home-blogs-unit">
+            <a target = "_blank" rel="noopener noreferrer"  href = "https://uxplanet.org/product-design-internship-olx-group-297b51855239" className="home-blogs-unit">
               <img
                 src={OlxBlogs}
                 alt="Product Design Internship at OLX Group, Gurgaon"
@@ -164,7 +164,7 @@ export default class Home extends Component {
                 Product Design Internship at OLX Group, Gurgaon
               </div>
             </a>
-            <a href = "https://medium.com/@rakshitkeswani13/ux-intern-at-furlenco-ed68c80dc9b0"  className="home-blogs-unit">
+            <a target = "_blank" rel="noopener noreferrer" href = "https://medium.com/@rakshitkeswani13/ux-intern-at-furlenco-ed68c80dc9b0"  className="home-blogs-unit">
               <img
                 src={require("../../static/furlenco-blogs.jpg")}
                 alt="UX Design Internship at Furlenco, Bangalore"
@@ -173,7 +173,7 @@ export default class Home extends Component {
                 UX Design Internship at Furlenco, Bangalore
               </div>
             </a>
-            <a href = "https://uxplanet.org/design-sprint-ec35329c83a7"  className="home-blogs-unit">
+            <a target = "_blank" rel="noopener noreferrer" href = "https://uxplanet.org/design-sprint-ec35329c83a7"  className="home-blogs-unit">
               <img
                 src={require("../../static/sprint.jpg")}
                 alt="Sprint Kalidoscope"
